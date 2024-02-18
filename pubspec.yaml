@@ -38,6 +38,7 @@ dependencies:
   freezed: ^2.4.7
   dio: ^5.4.0
   riverpod: ^2.5.0
+  json_serializable: ^6.7.1
 
 dev_dependencies:
   flutter_test:
