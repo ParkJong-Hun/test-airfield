@@ -1,10 +1,12 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:riverpod_annotation/riverpod_annotation.dart';
 
-class Counter extends Notifier<int> {
+// this is needed to run `dart run build_runner build` to generate the file.
+part 'counter.g.dart';
+
+@riverpod
+class Counter extends _$Counter {
   @override
   int build() => 0;
 
   void incrementCounter() => state++;
 }
-
-final counterProvider = NotifierProvider<Counter, int>(Counter.new);
