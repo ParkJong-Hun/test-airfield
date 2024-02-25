@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-import 'miyajisan/miyaji_san_page.dart';
+import 'miyaji_san/miyaji_san_page.dart';
 
 void main() {
   runApp(
