@@ -1,6 +1,6 @@
 import 'package:riverpod_annotation/riverpod_annotation.dart';
-import 'package:test_airfield/miyaji_san/kimochi.dart';
-import 'package:test_airfield/miyaji_san/miyaji_san.dart';
+import 'package:test_airfield/feature/miyaji_san/kimochi.dart';
+import 'package:test_airfield/feature/miyaji_san/miyaji_san.dart';
 
 part 'kimochi_of_miyaji_san.g.dart';
 
