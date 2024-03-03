@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-
-import 'feature/miyaji_san/miyaji_san_page.dart';
+import 'package:test_airfield/feature/hong_sc/hong_sc_page.dart';
 
 void main() {
   runApp(
@@ -22,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MiyajiSanPage(title: '宮地さん'),
+      home: const HongSCPage(),
     );
   }
 }
